@@ -4,6 +4,7 @@ In this project, the user uploads an image and receives an NSFW/SFW status with 
 
 <img src="http://i.imgur.com/Tya2t6r.png" width="200">
 
+For more information about the awesome Clarifai API, check out [developer.clarifai.com](http://developer.clarifai.com/)!
 
 ## Building and Running
 
