@@ -60,7 +60,7 @@ class SwiftRecognitionViewController : UIViewController, UIImagePickerController
             } else {
                 
                 let probabilities = results![0].probabilities as! [Double]
-                let probabilitySFW = probabilities[0]
+                let probabilitySFW = probabilities[results![0].tags.indexOf("sfw")!]
                 let imageIsNSFW = (probabilitySFW < 0.15)
                 
                 if imageIsNSFW {
