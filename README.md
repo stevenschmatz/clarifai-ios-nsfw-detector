@@ -7,8 +7,6 @@ In this project, the user uploads an image and receives an NSFW/SFW status with 
 
 ## Building and Running
 
-[![Build Status](https://travis-ci.org/Clarifai/clarifai-ios-starter.svg?branch=master)](https://travis-ci.org/Clarifai/clarifai-ios-starter)
-
 To build this project, you need [Xcode 7](https://developer.apple.com/xcode/download/) and [CocoaPods](http://cocoapods.org/). To build and run:
 
 1. Install dependencies and generate workspace.
